@@ -1,0 +1,54 @@
+{
+  "name": "next-ts-minimal-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo ''",
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "eslint-check": "next lint --ext .ts,.js,.tsx,.jsx src",
+    "eslint-fix": "next lint --fix --ext .ts,.js,.tsx,.jsx src",
+    "prettier-check": "prettier --check src",
+    "prettier-format": "prettier --write src",
+    "lint": "yarn prettier-check && yarn eslint-check",
+    "lint-fix": "yarn prettier-format && yarn eslint-fix",
+    "clean": "rimraf build",
+    "all": "yarn lint && yarn build && yarn test && yarn export"
+  },
+  "dependencies": {
+    "@next/font": "^13",
+    "@types/node": "*",
+    "@types/react": "*",
+    "next": "^13",
+    "react": "*",
+    "react-dom": "*",
+    "typescript": "*",
+    "web-vitals": "*"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-config-airbnb-typescript": "*",
+    "eslint-config-import": "*",
+    "eslint-config-next": "^13",
+    "eslint-config-prettier": "*",
+    "eslint-import-resolver-typescript": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jest": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "prettier": "*",
+    "rimraf": "*"
+  },
+  "resolutions": {
+    "json5": ">=2.2.3"
+  },
+  "packageManager": "yarn@3.4.1"
+}
