@@ -46,6 +46,7 @@
     "regenerator-runtime": "*",
     "rimraf": "*",
     "rome": "*",
-    "tailwindcss": "*"
+    "tailwindcss": "*",
+    "typewind": "*"
   }
 }
