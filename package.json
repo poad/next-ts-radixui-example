@@ -25,9 +25,9 @@
   },
   "dependencies": {
     "@radix-ui/colors": "*",
-    "@radix-ui/react-dialog": "^1.0.2",
+    "@radix-ui/react-dialog": "*",
     "@radix-ui/react-icons": "*",
-    "@radix-ui/react-popover": "^1.0.4",
+    "@radix-ui/react-popover": "*",
     "@types/node": "*",
     "@types/react": "*",
     "classnames": "*",
