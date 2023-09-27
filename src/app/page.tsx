@@ -17,7 +17,7 @@ export default function Home() {
 					dialogTitle="Test Dialog"
 					dialogText="test"
 				/>
-        <Button>test</Button>
+				<Button>test</Button>
 			</main>
 		</>
 	);
