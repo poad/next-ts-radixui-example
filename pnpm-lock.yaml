@@ -787,8 +787,8 @@ packages:
       '@types/ms': 0.7.32
     dev: true
 
-  /@types/js-levenshtein@1.1.1:
-    resolution: {integrity: sha512-qC4bCqYGy1y/NP7dDVr7KJarn+PbX1nSpwA7JXdu0HxT3QYjO8MJ+cntENtHFVy2dRAyBV23OZ6MxsW1AM1L8g==}
+  /@types/js-levenshtein@1.1.2:
+    resolution: {integrity: sha512-/NCbMABw2uacuyE16Iwka1EzREDD50/W2ggRBad0y1WHBvAkvR9OEINxModVY7D428gXBe0igeVX7bUc9GaslQ==}
     dev: true
 
   /@types/ms@0.7.32:
@@ -1561,7 +1561,7 @@ packages:
       '@mswjs/interceptors': 0.17.10
       '@open-draft/until': 1.0.3
       '@types/cookie': 0.4.1
-      '@types/js-levenshtein': 1.1.1
+      '@types/js-levenshtein': 1.1.2
       chalk: 4.1.2
       chokidar: 3.5.3
       cookie: 0.4.2
