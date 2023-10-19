@@ -21,8 +21,8 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2(@types/react@18.2.29)(react@18.2.0)
   '@types/node':
-    specifier: ^20.8.6
-    version: 20.8.6
+    specifier: ^20.8.7
+    version: 20.8.7
   '@types/react':
     specifier: ^18.2.29
     version: 18.2.29
@@ -795,8 +795,8 @@ packages:
     resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
     dev: true
 
-  /@types/node@20.8.6:
-    resolution: {integrity: sha512-eWO4K2Ji70QzKUqRy6oyJWUeB7+g2cRagT3T/nxYibYcT4y2BDL8lqolRXjTHmkZCdJfIPaY73KbJAZmcryxTQ==}
+  /@types/node@20.8.7:
+    resolution: {integrity: sha512-21TKHHh3eUHIi2MloeptJWALuCu5H7HQTdTrWIFReA8ad+aggoX+lRes3ex7/FtpC+sVUpFMQ+QTfYr74mruiQ==}
     dependencies:
       undici-types: 5.25.3
 
@@ -819,7 +819,7 @@ packages:
   /@types/set-cookie-parser@2.4.5:
     resolution: {integrity: sha512-ZPmztaAQ4rbnW/WTUnT1dwSENQo4bjGqxCSeyK+gZxmd+zJl/QAeF6dpEXcS5UEJX22HwiggFSaY8nE1nRmkbg==}
     dependencies:
-      '@types/node': 20.8.6
+      '@types/node': 20.8.7
     dev: true
 
   /@xmldom/xmldom@0.8.10:
