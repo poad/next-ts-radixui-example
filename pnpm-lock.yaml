@@ -784,15 +784,15 @@ packages:
   /@types/debug@4.1.10:
     resolution: {integrity: sha512-tOSCru6s732pofZ+sMv9o4o3Zc+Sa8l3bxd/tweTQudFn06vAzb13ZX46Zi6m6EJ+RUbRTHvgQJ1gBtSgkaUYA==}
     dependencies:
-      '@types/ms': 0.7.32
+      '@types/ms': 0.7.33
     dev: true
 
   /@types/js-levenshtein@1.1.2:
     resolution: {integrity: sha512-/NCbMABw2uacuyE16Iwka1EzREDD50/W2ggRBad0y1WHBvAkvR9OEINxModVY7D428gXBe0igeVX7bUc9GaslQ==}
     dev: true
 
-  /@types/ms@0.7.32:
-    resolution: {integrity: sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==}
+  /@types/ms@0.7.33:
+    resolution: {integrity: sha512-AuHIyzR5Hea7ij0P9q7vx7xu4z0C28ucwjAZC0ja7JhINyCnOw8/DnvAPQQ9TfOlCtZAmCERKQX9+o1mgQhuOQ==}
     dev: true
 
   /@types/node@20.8.6:
