@@ -249,8 +249,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@mswjs/interceptors@0.25.8:
-    resolution: {integrity: sha512-d++BpUPAnuPYkvdrqjNpFRmWb1CMEohcVb/wiOQa80giAJZZn34sUzeuaztRmP1Z0NGyIQGJYPeMJoUc3ksDpw==}
+  /@mswjs/interceptors@0.25.10:
+    resolution: {integrity: sha512-5/HOSUmD/GgR8pV4ID7QbpXJZ9HP5x1hItdwT+SFeWfYzg9l/81zrggV9mDWD3w97AiU+0gfrpZHy2LJUFlFSg==}
     engines: {node: '>=18'}
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
@@ -1472,7 +1472,7 @@ packages:
       '@bundled-es-modules/js-levenshtein': 2.0.1
       '@bundled-es-modules/statuses': 1.0.1
       '@mswjs/cookies': 1.1.0
-      '@mswjs/interceptors': 0.25.8
+      '@mswjs/interceptors': 0.25.10
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.4.1
       '@types/js-levenshtein': 1.1.3
