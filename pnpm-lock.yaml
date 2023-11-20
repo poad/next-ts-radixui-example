@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.31)
   msw:
-    specifier: ^2.0.7
-    version: 2.0.7(typescript@5.2.2)
+    specifier: ^2.0.8
+    version: 2.0.8(typescript@5.2.2)
   postcss:
     specifier: ^8.4.31
     version: 8.4.31
@@ -1449,8 +1449,8 @@ packages:
     engines: {node: '>=16 || 14 >=14.17'}
     dev: true
 
-  /msw@2.0.7(typescript@5.2.2):
-    resolution: {integrity: sha512-P8mT/O1C0N18t1ZbK+ubYOGF8TFwHrmZktAXmlTR2b0+UXQiFEiuymXoUyfVmx8qGKSlrIL3HllnwT04+Brt3g==}
+  /msw@2.0.8(typescript@5.2.2):
+    resolution: {integrity: sha512-/5nQCotVka62lvubQ3tMfUS3TukyeBwvWyvAthcXvDlXGhkA/85HlEwZyFlJ3ZsPW45Ty+ao0S4oFvuM12R/kA==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -1476,15 +1476,12 @@ packages:
       inquirer: 8.2.6
       is-node-process: 1.2.0
       js-levenshtein: 1.1.6
-      node-fetch: 2.7.0
       outvariant: 1.4.0
       path-to-regexp: 6.2.1
       strict-event-emitter: 0.5.1
       type-fest: 2.19.0
       typescript: 5.2.2
       yargs: 17.7.2
-    transitivePeerDependencies:
-      - encoding
     dev: true
 
   /mute-stream@0.0.8:
@@ -1541,18 +1538,6 @@ packages:
       - '@babel/core'
       - babel-plugin-macros
     dev: false
-
-  /node-fetch@2.7.0:
-    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-    dependencies:
-      whatwg-url: 5.0.0
-    dev: true
 
   /node-releases@2.0.13:
     resolution: {integrity: sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==}
@@ -2062,10 +2047,6 @@ packages:
     dependencies:
       is-number: 7.0.0
 
-  /tr46@0.0.3:
-    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
-    dev: true
-
   /ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
@@ -2153,17 +2134,6 @@ packages:
   /web-vitals@3.5.0:
     resolution: {integrity: sha512-f5YnCHVG9Y6uLCePD4tY8bO/Ge15NPEQWtvm3tPzDKygloiqtb4SVqRHBcrIAqo2ztqX5XueqDn97zHF0LdT6w==}
     dev: false
-
-  /webidl-conversions@3.0.1:
-    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
-    dev: true
-
-  /whatwg-url@5.0.0:
-    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
-    dependencies:
-      tr46: 0.0.3
-      webidl-conversions: 3.0.1
-    dev: true
 
   /which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
