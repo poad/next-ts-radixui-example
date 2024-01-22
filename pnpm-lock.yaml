@@ -244,7 +244,7 @@ packages:
     dependencies:
       '@jridgewell/set-array': 1.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
-      '@jridgewell/trace-mapping': 0.3.21
+      '@jridgewell/trace-mapping': 0.3.22
 
   /@jridgewell/resolve-uri@3.1.1:
     resolution: {integrity: sha512-dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==}
@@ -257,8 +257,8 @@ packages:
   /@jridgewell/sourcemap-codec@1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
 
-  /@jridgewell/trace-mapping@0.3.21:
-    resolution: {integrity: sha512-SRfKmRe1KvYnxjEMtxEr+J4HIeMX5YBg/qhRHpxEIGjhX1rshcHlnFUE9K0GazhVKWM7B+nARSkV8LuvJdJ5/g==}
+  /@jridgewell/trace-mapping@0.3.22:
+    resolution: {integrity: sha512-Wf963MzWtA2sjrNt+g18IAln9lKnlRp+K2eH4jjIoF1wYeq3aMREpG09xhlhdzS0EjwU7qmUJYangWa+151vZw==}
     dependencies:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
