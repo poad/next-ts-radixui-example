@@ -29,7 +29,7 @@
     "@radix-ui/react-popover": "^1.0.7",
     "@radix-ui/react-slot": "^1.0.2",
     "@types/node": "^20.11.14",
-    "@types/react": "^18.2.49",
+    "@types/react": "^18.2.51",
     "class-variance-authority": "^0.7.0",
     "classnames": "^2.5.1",
     "clsx": "^2.1.0",
