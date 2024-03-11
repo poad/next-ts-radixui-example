@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
     "start": "next start",
     "format-check": "biome format src",
     "format": "biome format --write src",
@@ -20,7 +19,7 @@
     "prebuild": "pnpm lint",
     "preexport": "pnpm build",
     "predev": "pnpm install",
-    "all": "pnpm build && pnpm export"
+    "all": "pnpm build"
   },
   "dependencies": {
     "@radix-ui/colors": "*",
