@@ -42,7 +42,7 @@
     "web-vitals": "*"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.6.1",
+    "@biomejs/biome": "1.6.2",
     "autoprefixer": "*",
     "msw": "*",
     "postcss": "*",
