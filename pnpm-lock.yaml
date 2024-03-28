@@ -69,7 +69,7 @@ devDependencies:
     version: 10.4.19(postcss@8.4.38)
   msw:
     specifier: '*'
-    version: 2.2.12(typescript@5.4.3)
+    version: 2.2.13(typescript@5.4.3)
   postcss:
     specifier: '*'
     version: 8.4.38
@@ -1330,8 +1330,8 @@ packages:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  /msw@2.2.12(typescript@5.4.3):
-    resolution: {integrity: sha512-thmjEipUvr+XGawcNOh4T8+T2TN3qKWPfF0Ewx6ub1HIATXBsjOhnjV6Wx2BmmFThKEtYYC+RygrvkpG4DzoZw==}
+  /msw@2.2.13(typescript@5.4.3):
+    resolution: {integrity: sha512-ljFf1xZsU0b4zv1l7xzEmC6OZA6yD06hcx0H+dc8V0VypaP3HGYJa1rMLjQbBWl32ptGhcfwcPCWDB1wjmsftw==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
