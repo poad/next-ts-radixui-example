@@ -55,7 +55,7 @@ dependencies:
     version: 1.0.7(tailwindcss@3.4.3)
   typescript:
     specifier: '*'
-    version: 5.4.3
+    version: 5.4.4
   web-vitals:
     specifier: '*'
     version: 3.5.2
@@ -69,7 +69,7 @@ devDependencies:
     version: 10.4.19(postcss@8.4.38)
   msw:
     specifier: '*'
-    version: 2.2.13(typescript@5.4.3)
+    version: 2.2.13(typescript@5.4.4)
   postcss:
     specifier: '*'
     version: 8.4.38
@@ -1329,7 +1329,7 @@ packages:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  /msw@2.2.13(typescript@5.4.3):
+  /msw@2.2.13(typescript@5.4.4):
     resolution: {integrity: sha512-ljFf1xZsU0b4zv1l7xzEmC6OZA6yD06hcx0H+dc8V0VypaP3HGYJa1rMLjQbBWl32ptGhcfwcPCWDB1wjmsftw==}
     engines: {node: '>=18'}
     hasBin: true
@@ -1356,7 +1356,7 @@ packages:
       path-to-regexp: 6.2.1
       strict-event-emitter: 0.5.1
       type-fest: 4.9.0
-      typescript: 5.4.3
+      typescript: 5.4.4
       yargs: 17.7.2
     dev: true
 
@@ -1848,8 +1848,8 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
+  /typescript@5.4.4:
+    resolution: {integrity: sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
