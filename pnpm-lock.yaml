@@ -1348,8 +1348,6 @@ snapshots:
 
   '@inquirer/type@1.3.2': {}
 
-  '@inquirer/type@1.3.2': {}
-
   '@isaacs/cliui@8.0.2':
     dependencies:
       string-width: 5.1.2
