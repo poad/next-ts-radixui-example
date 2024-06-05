@@ -812,8 +812,8 @@ packages:
     resolution: {integrity: sha512-glPiBfKguqA7v8JsXO3iLjJWZ9FV1vNpoI0I9hI9Mnk5yetO9uPLSpiCEmiVijAssv2f54HpvtzvAHfhPieiDQ==}
     engines: {node: '>=14'}
 
-  jiti@1.21.0:
-    resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
+  jiti@1.21.1:
+    resolution: {integrity: sha512-KMXpzEJMsOFyRj6ZpDTnnlJrdr9umUY+eut5vlRvjVixohitnRFIRTFw9MEu9zPlBxTHZo6xD5ftKYiQZuJYQw==}
     hasBin: true
 
   js-tokens@4.0.0:
@@ -1914,7 +1914,7 @@ snapshots:
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
 
-  jiti@1.21.0: {}
+  jiti@1.21.1: {}
 
   js-tokens@4.0.0: {}
 
@@ -2225,7 +2225,7 @@ snapshots:
       fast-glob: 3.3.2
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      jiti: 1.21.0
+      jiti: 1.21.1
       lilconfig: 2.1.0
       micromatch: 4.0.7
       normalize-path: 3.0.0
