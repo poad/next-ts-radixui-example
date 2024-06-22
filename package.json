@@ -39,7 +39,7 @@
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.5.2",
-    "web-vitals": "^4.1.1"
+    "web-vitals": "^4.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.1",
