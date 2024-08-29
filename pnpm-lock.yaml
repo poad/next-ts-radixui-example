@@ -70,8 +70,8 @@ importers:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.41)
       msw:
-        specifier: ^2.3.5
-        version: 2.3.5(typescript@5.5.4)
+        specifier: ^2.4.0
+        version: 2.4.0(typescript@5.5.4)
       postcss:
         specifier: ^8.4.41
         version: 8.4.41
@@ -763,10 +763,6 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  graphql@16.9.0:
-    resolution: {integrity: sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==}
-    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
-
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
@@ -872,13 +868,16 @@ packages:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  msw@2.3.5:
-    resolution: {integrity: sha512-+GUI4gX5YC5Bv33epBrD+BGdmDvBg2XGruiWnI3GbIbRmMMBeZ5gs3mJ51OWSGHgJKztZ8AtZeYMMNMVrje2/Q==}
+  msw@2.4.0:
+    resolution: {integrity: sha512-NqAjbDvJ66J/VS9KqLmY8ZF6ceQpYRy+s2yJYLl+3vUdNa4C7zouXVDl1TLast/o9gLzPMTrfaTJkeR7qJ41ew==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
+      graphql: '*'
       typescript: '>= 4.7.x'
     peerDependenciesMeta:
+      graphql:
+        optional: true
       typescript:
         optional: true
 
@@ -1207,8 +1206,8 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
 
-  type-fest@4.18.2:
-    resolution: {integrity: sha512-+suCYpfJLAe4OXS6+PPXjW3urOS4IoP9waSiLuXfLgqZODKw/aWwASvzqE886wA0kQgGy0mIWyhd87VpqIy6Xg==}
+  type-fest@4.26.0:
+    resolution: {integrity: sha512-OduNjVJsFbifKb57UqZ2EMP1i4u64Xwow3NYXUtBbD4vIwJdQd4+xl8YDou1dlm4DVrtwT/7Ky8z8WyCULVfxw==}
     engines: {node: '>=16'}
 
   typescript@5.5.4:
@@ -1907,8 +1906,6 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graphql@16.9.0: {}
-
   has-flag@4.0.0: {}
 
   hasown@2.0.2:
@@ -1994,7 +1991,7 @@ snapshots:
 
   minipass@7.1.2: {}
 
-  msw@2.3.5(typescript@5.5.4):
+  msw@2.4.0(typescript@5.5.4):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.0
       '@bundled-es-modules/statuses': 1.0.1
@@ -2005,13 +2002,12 @@ snapshots:
       '@types/cookie': 0.6.0
       '@types/statuses': 2.0.5
       chalk: 4.1.2
-      graphql: 16.9.0
       headers-polyfill: 4.0.3
       is-node-process: 1.2.0
       outvariant: 1.4.3
       path-to-regexp: 6.2.2
       strict-event-emitter: 0.5.1
-      type-fest: 4.18.2
+      type-fest: 4.26.0
       yargs: 17.7.2
     optionalDependencies:
       typescript: 5.5.4
@@ -2326,7 +2322,7 @@ snapshots:
 
   type-fest@0.21.3: {}
 
-  type-fest@4.18.2: {}
+  type-fest@4.26.0: {}
 
   typescript@5.5.4: {}
 
