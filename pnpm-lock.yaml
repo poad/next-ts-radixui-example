@@ -68,13 +68,13 @@ importers:
         version: 1.8.3
       autoprefixer:
         specifier: ^10.4.20
-        version: 10.4.20(postcss@8.4.43)
+        version: 10.4.20(postcss@8.4.44)
       msw:
         specifier: ^2.4.1
         version: 2.4.1(typescript@5.5.4)
       postcss:
-        specifier: ^8.4.43
-        version: 8.4.43
+        specifier: ^8.4.44
+        version: 8.4.44
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -165,20 +165,20 @@ packages:
   '@floating-ui/utils@0.2.7':
     resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
 
-  '@inquirer/confirm@3.1.22':
-    resolution: {integrity: sha512-gsAKIOWBm2Q87CDfs9fEo7wJT3fwWIJfnDGMn9Qy74gBnNFOACDNfhUzovubbJjWnKLGBln7/NcSmZwj5DuEXg==}
+  '@inquirer/confirm@3.2.0':
+    resolution: {integrity: sha512-oOIwPs0Dvq5220Z8lGL/6LHRTEr9TgLHmiI99Rj1PJ1p1czTys+olrgBqZk4E2qC0YTzeHprxSQmoHioVdJ7Lw==}
     engines: {node: '>=18'}
 
-  '@inquirer/core@9.0.10':
-    resolution: {integrity: sha512-TdESOKSVwf6+YWDz8GhS6nKscwzkIyakEzCLJ5Vh6O3Co2ClhCJ0A4MG909MUWfaWdpJm7DE45ii51/2Kat9tA==}
+  '@inquirer/core@9.1.0':
+    resolution: {integrity: sha512-RZVfH//2ytTjmaBIzeKT1zefcQZzuruwkpTwwbe/i2jTl4o9M+iML5ChULzz6iw1Ok8iUBBsRCjY2IEbD8Ft4w==}
     engines: {node: '>=18'}
 
   '@inquirer/figures@1.0.5':
     resolution: {integrity: sha512-79hP/VWdZ2UVc9bFGJnoQ/lQMpL74mGgzSYX1xUqCVk7/v73vJCMw1VuyWN1jGkZ9B3z7THAbySqGbCNefcjfA==}
     engines: {node: '>=18'}
 
-  '@inquirer/type@1.5.2':
-    resolution: {integrity: sha512-w9qFkumYDCNyDZmNQjf/n6qQuvQ4dMC3BJesY4oF+yr0CxR5vxujflAVeIcS6U336uzi9GM0kAfZlLrZ9UTkpA==}
+  '@inquirer/type@1.5.3':
+    resolution: {integrity: sha512-xUQ14WQGR/HK5ei+2CvgcwoH9fQ4PgPGmVFSN0pc1+fVyDL3MREhyAY7nxEErSu6CkllBM3D7e3e+kOvtu+eIg==}
     engines: {node: '>=18'}
 
   '@isaacs/cliui@8.0.2':
@@ -954,8 +954,8 @@ packages:
   path-to-regexp@6.2.2:
     resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
 
-  picocolors@1.0.1:
-    resolution: {integrity: sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==}
+  picocolors@1.1.0:
+    resolution: {integrity: sha512-TQ92mBOW0l3LeMeyLV6mzy/kWr8lkd/hp3mTg7wYK7zJhuBStmGMBG0BdeDZS/dZx1IukaX6Bk11zcln25o1Aw==}
 
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
@@ -1010,8 +1010,8 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.4.43:
-    resolution: {integrity: sha512-gJAQVYbh5R3gYm33FijzCZj7CHyQ3hWMgJMprLUlIYqCwTeZhBQ19wp0e9mA25BUbEvY5+EXuuaAjqQsrBxQBQ==}
+  postcss@8.4.44:
+    resolution: {integrity: sha512-Aweb9unOEpQ3ezu4Q00DPvvM2ZTUitJdNKeP/+uQgr1IBIqu574IaZoURId7BKtWMREwzKa9OgzPzezWGPWFQw==}
     engines: {node: ^10 || ^12 || >=14}
 
   psl@1.9.0:
@@ -1364,15 +1364,15 @@ snapshots:
 
   '@floating-ui/utils@0.2.7': {}
 
-  '@inquirer/confirm@3.1.22':
+  '@inquirer/confirm@3.2.0':
     dependencies:
-      '@inquirer/core': 9.0.10
-      '@inquirer/type': 1.5.2
+      '@inquirer/core': 9.1.0
+      '@inquirer/type': 1.5.3
 
-  '@inquirer/core@9.0.10':
+  '@inquirer/core@9.1.0':
     dependencies:
       '@inquirer/figures': 1.0.5
-      '@inquirer/type': 1.5.2
+      '@inquirer/type': 1.5.3
       '@types/mute-stream': 0.0.4
       '@types/node': 22.5.2
       '@types/wrap-ansi': 3.0.0
@@ -1387,7 +1387,7 @@ snapshots:
 
   '@inquirer/figures@1.0.5': {}
 
-  '@inquirer/type@1.5.2':
+  '@inquirer/type@1.5.3':
     dependencies:
       mute-stream: 1.0.0
 
@@ -1734,14 +1734,14 @@ snapshots:
     dependencies:
       tslib: 2.7.0
 
-  autoprefixer@10.4.20(postcss@8.4.43):
+  autoprefixer@10.4.20(postcss@8.4.44):
     dependencies:
       browserslist: 4.23.3
       caniuse-lite: 1.0.30001655
       fraction.js: 4.3.7
       normalize-range: 0.1.2
-      picocolors: 1.0.1
-      postcss: 8.4.43
+      picocolors: 1.1.0
+      postcss: 8.4.44
       postcss-value-parser: 4.2.0
 
   balanced-match@1.0.2: {}
@@ -1996,7 +1996,7 @@ snapshots:
       '@bundled-es-modules/cookie': 2.0.0
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
-      '@inquirer/confirm': 3.1.22
+      '@inquirer/confirm': 3.2.0
       '@mswjs/interceptors': 0.29.1
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.6.0
@@ -2077,7 +2077,7 @@ snapshots:
 
   path-to-regexp@6.2.2: {}
 
-  picocolors@1.0.1: {}
+  picocolors@1.1.0: {}
 
   picomatch@2.3.1: {}
 
@@ -2085,28 +2085,28 @@ snapshots:
 
   pirates@4.0.6: {}
 
-  postcss-import@15.1.0(postcss@8.4.43):
+  postcss-import@15.1.0(postcss@8.4.44):
     dependencies:
-      postcss: 8.4.43
+      postcss: 8.4.44
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
 
-  postcss-js@4.0.1(postcss@8.4.43):
+  postcss-js@4.0.1(postcss@8.4.44):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.43
+      postcss: 8.4.44
 
-  postcss-load-config@4.0.2(postcss@8.4.43):
+  postcss-load-config@4.0.2(postcss@8.4.44):
     dependencies:
       lilconfig: 3.1.2
       yaml: 2.5.0
     optionalDependencies:
-      postcss: 8.4.43
+      postcss: 8.4.44
 
-  postcss-nested@6.2.0(postcss@8.4.43):
+  postcss-nested@6.2.0(postcss@8.4.44):
     dependencies:
-      postcss: 8.4.43
+      postcss: 8.4.44
       postcss-selector-parser: 6.1.2
 
   postcss-selector-parser@6.1.2:
@@ -2119,13 +2119,13 @@ snapshots:
   postcss@8.4.31:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.1
+      picocolors: 1.1.0
       source-map-js: 1.2.0
 
-  postcss@8.4.43:
+  postcss@8.4.44:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.1
+      picocolors: 1.1.0
       source-map-js: 1.2.0
 
   psl@1.9.0: {}
@@ -2285,12 +2285,12 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       object-hash: 3.0.0
-      picocolors: 1.0.1
-      postcss: 8.4.43
-      postcss-import: 15.1.0(postcss@8.4.43)
-      postcss-js: 4.0.1(postcss@8.4.43)
-      postcss-load-config: 4.0.2(postcss@8.4.43)
-      postcss-nested: 6.2.0(postcss@8.4.43)
+      picocolors: 1.1.0
+      postcss: 8.4.44
+      postcss-import: 15.1.0(postcss@8.4.44)
+      postcss-js: 4.0.1(postcss@8.4.44)
+      postcss-load-config: 4.0.2(postcss@8.4.44)
+      postcss-nested: 6.2.0(postcss@8.4.44)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.8
       sucrase: 3.35.0
@@ -2334,7 +2334,7 @@ snapshots:
     dependencies:
       browserslist: 4.23.3
       escalade: 3.2.0
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   url-parse@1.5.10:
     dependencies:
